@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap");
+
+/*Global styling*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+}
+
+/*Scroll Top*/
+html {
+  scroll-behavior: smooth;
+}
+
+.scrolltop img {
+  width: 80px;
+  height: 80px;
+  font-size: 10px;
+  color: var(--myColor);
+  background: var(--myVar);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  border: none;
+}
+
+/*Variables*/
+:root {
+  --myVar: orange;
+  --myColor: white;
+  --myFontTitle: "Satisfy", cursive;
+  --myFontText: "Hind Siliguri", sans-serif;
+}
+
+/*Contact container*/
+.contact {
+  padding: 10px;
+  margin-left: 50px;
+  color: var(--myColor);
+}
+
+.phone-num {
+  margin-right: 30px;
+}
+
+.fas,
+.fa {
+  color: var(--myVar);
+}
+
+/*Navigation bar*/
+.icon1 {
+  display: none;
+  cursor: pointer;
+  color: white;
+  margin: 0 0 20px 90%;
+  font-size: 30px;
+  line-height: 0;
+}
+
+.navbar a {
+  color: var(--myColor);
+  text-decoration: none;
+}
+
+.navbar-brand {
+  margin-left: 50px;
+  font-size: 30px;
+  font-family: var(--myFontTitle);
+  line-height: 7px;
+}
+
+.active {
+  color: var(--myVar) !important;
+  font-weight: bold;
+}
+
+.book-table {
+  color: var(--myColor) !important;
+  background: var(--myVar);
+  border-radius: 15px;
+  text-decoration: none;
+  padding: 5px 20px !important;
+}
+
+.book-table:hover {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: var(--myVar);
+}
+
+/*Carousel*/
+.main-carousel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: -1000;
+}
+
+.carousel-caption {
+  margin-bottom: 12%;
+}
+
+.carousel-caption a:hover {
+  color: var(--myColor);
+}
+h5 {
+  font-size: 50px;
+  font-family: var(--myFontTitle);
+  margin: 10px 0;
+}
+
+.welcome {
+  color: var(--myVar);
+}
+
+p {
+  font-family: var(--myFontText);
+  font-weight: normal;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.btn {
+  border: 2px solid var(--myVar);
+  color: var(--myColor);
+  border-radius: 15px;
+  margin: 15px;
+  padding: 3px 30px;
+}
+
+.carousel img {
+  height: 100vh;
+  filter: brightness(40%);
+}
+
+/*Picture and text*/
+.row-1 {
+  background-color: rgb(255, 255, 236);
+  padding: 30px 0;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.box img {
+  max-width: 100%;
+  max-height: 80vh;
+}
+
+h3 {
+  font-family: var(--myFontTitle);
+  font-size: 40px;
+}
+
+.boxTitle {
+  font-weight: bold;
+}
+.list {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.list:before {
+  content: "✓";
+  color: var(--myVar);
+}

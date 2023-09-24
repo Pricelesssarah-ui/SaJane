@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Meta data-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Bootstrap Link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!--font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Title-->
+    <title>Restaurant App</title>
+  </head>
+
+  <!--Body-->
+  <body>
+    <!--Main Container Div-->
+    <div class="main-container">
+      <!--Contact container-->
+      <div class="contact">
+        <i style="font-size: 24px" class="fas">&#xf3cd;</i>
+        <span class="phone-num">+155895548855</span>
+        <i style="font-size: 24px" class="fa">&#xf022;</i>
+        <span class="date-time">Mon-Sat: 10:00AM - 10:00PM</span>
+      </div>
+
+      <!--Navigation bar-->
+
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Delicious</a>
+
+        <!--<button class="navbar-toggler icon1" 
+      type="button" 
+      data-toggle="collapse" 
+      data-target="#navbarNavDropdown" 
+      aria-controls="navbarNavDropdown" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>-->
+        <span class="icon1">&#9776;</span>
+        <div class="navbar offset-lg-3">
+          <ul class="navbar-nav navbar-main">
+            <li class="nav-item navitem active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+
+            <li class="nav-item navitem">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+
+            <li class="nav-item navitem">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+
+            <li class="nav-item navitem">
+              <a class="nav-link" href="#specials">Specials</a>
+            </li>
+
+            <li class="nav-item navitem">
+              <a class="nav-link" href="#events">Events</a>
+            </li>
+
+            <li class="nav-item navitem">
+              <a class="nav-link" href="#chefs">Chefs</a>
+            </li>
+
+            <li class="nav-item navitem">
+              <a class="nav-link" href="#restaurant">Gallery</a>
+            </li>
+
+            <li class="nav-item navitem">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+
+            <li class="nav-item navitem">
+              <a class="nav-link book-table" href="#table">Book a Table</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--Bootstrap Carousel-->
+
+      <div class="main-carousel">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/bg_5.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption">
+                <h5
+                  class="animate__animated animate__fadeInDown"
+                  style="animation-duration: 2s"
+                >
+                  <span class="welcome">Welcome </span>to Saralina Foodies
+                </h5>
+                <p
+                  class="animate__animated animate__fadeInUp"
+                  style="animation-duration: 2s"
+                >
+                  We provide our customers with a unique dining experience and
+                  have rental spaces <br />
+                  available for birthdays, anniversaries, reunions and so much
+                  more. <br />
+                  Fresh, delicious meal to reach your optimum health and
+                  fitness.
+                </p>
+                <a href="#menu"
+                  ><button
+                    class="btn animate__animated animate__fadeInUp"
+                    style="animation-duration: 3s"
+                    href="#menu"
+                  >
+                    OUR MENU
+                  </button></a
+                >
+                <a href="#table"
+                  ><button
+                    class="btn animate__animated animate__fadeInUp"
+                    style="animation-duration: 3s"
+                  >
+                    BOOK A TABLE
+                  </button></a
+                >
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="Images/bg_2.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-md-block">
+                <h5
+                  class="animate__animated animate__fadeInDown"
+                  style="animation-duration: 2s"
+                >
+                  Delicious Restaurant
+                </h5>
+                <p
+                  class="animate__animated animate__fadeInUp"
+                  style="animation-duration: 2s"
+                >
+                  We offer the best meal diet you can ever think of and your
+                  satisfaction is our pride.
+                </p>
+                <a href="#menu"
+                  ><button
+                    class="btn animate__animated animate__fadeInUp"
+                    style="animation-duration: 3s"
+                    href="#menu"
+                  >
+                    OUR MENU
+                  </button></a
+                >
+                <a href="#table"
+                  ><button
+                    class="btn animate__animated animate__fadeInUp"
+                    style="animation-duration: 3s"
+                    href="#book"
+                  >
+                    BOOK A TABLE
+                  </button></a
+                >
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="Images/bg_3.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-md-block">
+                <h5
+                  class="animate__animated animate__fadeInDown"
+                  style="animation-duration: 2s"
+                >
+                  Reservation
+                </h5>
+                <p
+                  class="animate__animated animate__fadeInUp"
+                  style="animation-duration: 2s"
+                >
+                  Seeing you is our favourite part of the day.
+                </p>
+                <a href="#menu"
+                  ><button
+                    class="btn animate__animated animate__fadeInUp"
+                    style="animation-duration: 3s"
+                    href="#menu"
+                  >
+                    OUR MENU
+                  </button></a
+                >
+                <a href="#table"
+                  ><button
+                    class="btn animate__animated animate__fadeInUp"
+                    style="animation-duration: 3s"
+                    href="#book"
+                  >
+                    BOOK A TABLE
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="false"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!--Picture and text-->
+        <div class="container-fluid" id="about">
+          <div class="row row-1">
+            <div class="col-sm-6 col-md-6 col-lg-6">
+              <div class="box">
+                <img src="images/breakfast-7.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-6">
+              <div class="box box-size">
+                <h3>
+                  SaraLina Foodies
+                  <span class="boxTitle"
+                    >always ready to redeem your taste...</span
+                  >
+                </h3>
+                <p>
+                  Sneak peek at one of our new #buddhabowls we will have 7 new
+                  bowls lunching next week.
+                </p>
+
+                <ul>
+                  <li class="list">
+                    Our restaurant is one of the best that nourishes and heal
+                    With an international Chef that specializes in local and
+                    continental dishes, our restaurant serves a variety of
+                    dishes that tickles your taste buds.
+                  </li>
+                  <li class="list">
+                    Our aim is simple, we want you to experience the best
+                    possible dining atmosphere whilst enjoying the relaxed
+                    ambiance of our stylish restaurant.
+                  </li>
+                  <li class="list">
+                    Saralina foodies restaurant provides the ultimate customer
+                    experience
+                  </li>
+                </ul>
+
+                <p>
+                  Don't worry about getting all the nutrients or picking the
+                  dish that ticks all the boxes #grains #proteins #vitamins
+                  #minerals we put it all in one place!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
