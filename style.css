@@ -176,3 +176,1150 @@ h3 {
   content: "✓";
   color: var(--myVar);
 }
+
+
+/*Our Restaurant*/
+.outer-menu {
+  text-align: center;
+  margin: 20px;
+  font-family: 'Satisfy', cursive;
+}
+
+.menu-color {
+  color: var(--myVar);
+}
+
+h4 {
+  font-size: 30px;
+}
+
+.row-2 { 
+  margin: 3px 100px;
+}
+
+.numb {
+  color: var(--myVar);
+}
+
+.box2 { 
+  height: 300px;
+  padding: 30px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 12px 0 #ccc;
+}
+
+.box2:hover {
+  background: var(--myVar);
+  color: var(--myColor);
+  transition:  .5s ease;
+}
+
+.box2:hover .numb {
+  color: var(--myColor);
+}
+
+h2, h6 {
+  font-weight: bolder;
+}
+
+h2 {
+  color: var(--myVar);
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 25px;
+  font-family: 'Satisfy', cursive;
+}
+
+.our-restaurant p {
+  font-size: 15px;
+}
+
+
+/*Our Menu*/
+.btn-groups {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+#menu .container {
+  background-color: #f4f4f4;
+}
+
+.tasty {
+  text-align: center;
+  margin-top: 8%;
+  font-weight: bold;
+}
+
+.btn-groups span {
+  border: 2px solid var(--myVar);
+  margin: 5px 10px;
+  padding: 10px;
+  width: 10%;
+  text-align: center;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.active-2 {
+  background-color: var(--myVar);
+  color: var(--myColor);
+}
+
+.container-salad {
+  display: none;
+}
+
+.container-starters {
+  display: none;
+}
+
+.container-specialty {
+  display: none;
+}
+
+.menu p {
+  font-style: italic;
+  font-weight: bold;
+}
+
+/*Our Specials*/
+.outer-container {
+  margin: 10px 0;
+}
+
+.txt-special {
+  text-align: center;
+  margin: 15px;
+}
+
+.list-btn {
+  width: 100%;
+  list-style-type: none;
+  font-size: 17px;
+  font-family: var(--myFontText);
+  cursor: pointer;
+}
+
+.list-btn li {
+  padding-bottom: 10px;
+  border-right: 2px solid #ccc;
+}
+
+.activeListBtn {
+  border-right: 2px solid var(--myVar) !important;
+  color: var(--myVar);
+  font-weight: bold;
+}
+
+.txt {
+  text-align: center;
+  margin-left: 0;
+}
+
+.txt2 {
+  display: none;
+}
+
+.txt3 {
+  display: none;
+}
+
+.txt4 {
+  display: none;
+}
+
+.txt5 {
+  display: none;
+}
+
+.box-3 img {
+  width: 80%;
+  height: 30vh;
+}
+
+.image2 {
+  display: none;
+}
+
+.image3 {
+  display: none;
+}
+
+.image4 {
+  display: none;
+}
+
+.image5 {
+  display: none;
+}
+
+
+
+/*Our Events*/
+.container-events:before {
+  content: "";
+  position: absolute;
+  width: 98%;
+  height: 100vh;
+  margin-top: 60px;
+  background: url('/images/wedding.jpg');
+  filter: brightness(30%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.carousel-flex {
+  display: flex;
+  padding: 80px;
+}
+
+.carousel-item h1 {
+  text-align: center;
+  color: var(--myColor);
+  padding-top: 70px;
+  margin-top: 20px;
+}
+
+h1 .event {
+  color: var(--myVar);
+}
+
+.event-img img {
+  width:  100%;
+  height: 100%;
+  filter: brightness(100%);
+}
+
+.wedding {
+  height: 65vh;
+}
+
+.event-text {
+  margin-left: 20px;
+  color: var(--myColor);
+  margin-bottom: 10px;
+}
+
+.event-text h6 {
+  text-align: left;
+  color: var(--myVar);
+}
+
+.amount {
+  font-size: 30px;
+  border-bottom: 2px solid var(--myVar);
+  width: 12%;
+}
+
+
+/*Book A Table*/
+#table {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.containerTable {
+  width: 80%;
+  box-shadow: 0 0 12px 0 #ccc;
+  margin: 0 auto;
+  padding-block: 10px;
+
+}
+
+.tableItem {
+  margin: 50px;
+  
+}
+
+.inputBox {
+  width: 100%;
+}
+
+input {
+ margin: 15px 0;
+  width: 33%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#txtArea {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+#btn {
+ margin: 10px 40%;
+ padding: 10px;
+ border: none;
+ width: 20%;
+ color: var(--myColor);
+ background: var(--myVar);
+ border-radius: 15px;
+ text-decoration: none;
+ cursor: pointer;
+}
+
+
+/*Photo of our Restaurant*/
+.photos {
+  width: 100%;
+  height: 100%;
+}
+
+.photos img {
+  width: 100%;
+  height: 90%;
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(0.9);
+
+}
+
+
+/*Photo of our Chef*/
+.OurChefs::before {
+  content: "";
+  width: 98%;
+  height: 150vh;
+  position: absolute;
+  background: url('images/hall-guest.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.3;
+}
+
+#chefs {
+  padding-top: 5px;
+  filter: brightness(100%);
+  margin-top: 5%;
+}
+
+.containerChef {
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.containerPix {
+  position: relative;
+  width: 100%;
+  margin: 0 0 20% 30px;
+}
+
+.chef1 {
+  width: 100%;
+}
+
+.containerText {
+  position: absolute;
+  width: 90%;
+  margin: -50px 0 80px 20px;
+  background: var(--myColor);
+  padding: 40px;
+  box-shadow: 0 0 12px 0 #ccc;
+}
+
+.containerText p {
+  text-align: center;
+  margin: 10px;
+}
+
+.chefname {
+  border-bottom: 1px solid var(--myVar); 
+  margin: 10px;
+}
+
+.social-links {
+  text-align: center;
+  margin: 5px;
+}
+
+.social {
+  color: black;
+  margin: 5px;
+}
+
+
+/*Contact Us*/
+#contact {
+  margin-top: 100px;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 100%;
+  margin: 20px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none!important;
+  height: 500px;
+  width: 100%;
+}
+
+h6 {
+  text-align: center;
+}
+
+.tastyUs {
+  color: black;
+}
+
+.containerTable {
+  width: 80%;
+  box-shadow: 0 0 12px 0 #ccc;
+  margin: 0 auto;
+}
+
+.tableItem {
+  margin: 50px;
+}
+
+.container-info {
+  display: flex;
+}
+
+.info {
+  display: flex;
+  margin-top: 10px;
+  padding: 15px;  
+}
+
+.info1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.inputBox {
+  width: 100%;
+}
+
+#input {
+  margin: 15px 0;
+  width: 48%;
+  border: 1px solid #ccc;
+}
+#subject {
+  width: 100%;
+}
+
+#txtArea {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+#btn {
+ margin: 2rem 25rem;
+ padding: 10px;
+ border: none;
+ width: 20%;
+ color: var(--myColor);
+ background: var(--myVar);
+ border-radius: 15px;
+ text-decoration: none;
+ cursor: pointer;
+}
+
+
+
+/*Footer*/
+.containerFooter {
+  background-color: rgb(44, 43, 43);
+  margin: 15px;
+  padding: 20px;
+}
+
+.txt-specials {
+  color: var(--myColor);
+  text-align: center;
+  margin: 20px;
+  font-size: 15px;
+}
+
+.socials {
+  color: var(--myColor);
+  margin: 10px;
+}
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 700px) {
+
+  .scrolltop img{
+      width: 40px;
+      height: 40px;
+      font-size: 10px;
+      border-radius: 50%;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      border: none;
+  }    
+
+  .main-carousel {
+      object-fit: cover;
+  }
+
+  .main-container {
+      width: 100vw;
+      overflow: hidden;
+  }
+
+/*Contact container*/
+
+  .fa, .date-time {
+      display: none;
+  }
+
+
+/*Navigation bar*/
+
+   .icon1 {
+      display: block;
+  }
+ 
+  .navbar-main {
+      display: none;
+      width: 100vw;
+      height: 80vh;
+      margin-top: 20px;
+      background: var(--myColor);
+      text-align: center;
+  }
+  li .nav-link {
+      color: black;
+
+  }
+  .dropdown-menu a {
+      color: black;
+  }
+  .navbar-brand {
+      margin-top: 10px;
+      margin-left: 5px;
+      font-size: 30px;
+  }
+  
+  .book-table {
+    width: 50%;
+    font-size: 20px;
+    margin-left: 30%;
+  }
+
+
+/*Carousel Section*/
+
+  .carousel-inner img {
+      height: 90vh;
+      object-fit: cover;
+  }
+
+  .carousel-caption {
+      margin-bottom: 50%;
+  }
+
+  .carousel-caption h5 {
+      font-size: 20px;
+ }
+
+  .carousel-caption p {
+      font-size: 12px;
+  }
+
+  .btn {
+      margin: 10px;
+      padding: 3px 10px;
+      font-size: 10px;
+  }
+
+
+/*Picture and text*/
+  .box {
+      margin-bottom: 20px;
+      width: 100%;
+  }
+  .box-3 img {
+      width: 100%;
+      padding: 10% 10% 10% 0;
+    
+  }
+  .box-size {
+      margin: 10px 5px;
+  }
+
+  .box-size h3 {
+      font-size: 20px;
+  }
+
+  .box-size p {
+      font-size: 12px;
+  }
+
+  .box-size li {
+      font-size: 12px;
+  }
+
+/*Our Restaurant*/
+ .row-2 {
+      width: 100%;
+      margin-left: 0;
+ }
+ .photos img {
+      height: 98%;
+  }
+
+  .outer-menu h4 {
+      font-size: 20px;
+  }
+
+  .outer-menu p {
+      font-size: 12px;
+  }
+
+  .box2 h6 {
+      font-size: 20px;
+      margin-top: 25px;
+  }
+
+  .box2 p {
+      font-size: 12px;
+  }
+
+/*Our Menu*/
+ .btn-groups {
+      display: flex;
+      padding: 20px 20px;     
+      width: 100%;  
+ }
+ .tasty {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 20px;
+  }
+  .btn-groups span{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      width: 80%;
+      padding: 5px;
+      margin: 2px;
+      font-size: 12px;
+  }
+
+  .foodListed p {
+      font-size: 12px;
+  }
+
+
+/*Our Specials*/
+  p {
+      font-size: 12px;
+   }
+  .txt-special {
+      font-size: 12px;
+   }
+
+  .list-btn li {
+      font-size: 12px;
+  }
+
+   .overall {
+      width: 100%;
+      margin: 0 auto;
+     margin-left: 25px;
+   }
+  .box-3 img {
+      margin-right: 0;
+      width: 100%;
+      height: 30vh; 
+  }
+
+
+
+/*Events*/
+
+  .container-events:before {
+      width: 98%;
+      height: 120vh ;
+      margin-top: 10px;
+  }
+
+  .carousel-flex {
+      display: inline;
+      padding: 80px;
+      width: 100%;
+      margin: 20px; 
+  }
+  .carousel-item h1 {
+      margin-top: 20px;
+      font-size: 20px;
+      width: 100%;
+  }
+  .event-img img {
+      margin: 0 0 30px 20px;
+      width:  100%;
+      height: 100%;
+  }
+  .wedding {
+      height: 34vh;
+      margin: 0 0 40px 10px;
+  }
+  .event-text {
+      margin: 0 0 30% 20px;
+      width: 100%;
+      font-size: 12px;
+  }
+
+  .event-text h6 {
+      font-size: 20px;
+  }
+
+  .amount {
+      margin-left: 0;
+      width: 15%;
+  }
+
+  
+/*Book A Table*/
+  .table {
+      margin-top: 1A0px;
+  }
+  .containerTable {
+      width: 90%;
+  }
+  input {
+      margin: 15px 0;
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+  }
+  #txtArea {
+      width: 100%;
+      border: 1px solid #ccc;
+  }
+  #btn {
+      width: 80%;
+      margin: 10px 45px;
+  }
+
+
+
+/*Photos of Restaurant*/
+
+  .photos {
+      width: 100vw;
+      height: 100%;
+  }
+  .row img {
+      width: 90vw;
+      height: 90%;
+      margin-left: 0;
+      padding-left: 0;
+  }
+
+
+/*Photo of our Chef*/
+  .OurChefs::before {
+      width: 94%;
+      height: 260vh;
+      margin: 10% 0 20px 0;
+      padding-left: 0;
+  }
+
+  #chefs .tasty {
+      margin-top: 100px;
+
+  }
+  .containerChef {
+      display: block;
+      width: 100%;
+      margin: 0;
+  }
+  .containerPix {
+      width: 100%;
+      margin: 10px 0 40% 0;
+      padding-top: 20px;
+  }
+  .info {
+      margin-bottom: 10%;
+  }
+
+  .social-links {
+      display: inline-flex;
+  }
+
+
+/*Contact Us*/
+
+  .container-info {
+      display: block;
+      margin-top: 0;
+  }
+  .mapouter {
+      padding: 10px;
+      margin-left: 0;
+      height: 50%;
+  }
+
+  #input {
+      padding: 10px;
+      width: 100%;
+      margin: 15px 0;
+  }
+  #btn {
+      margin-left: 20px;
+  }
+  .fas {
+      display: none;
+  }
+
+
+/*Footer*/
+  .containerFooter {
+      background-color: rgb(44, 43, 43);
+      width: 100%; 
+      padding: 20px;
+      margin-left: 0;
+  }
+  .txt-specials {
+      color: var(--myColor);
+      text-align: center;
+      margin: 20px;
+      font-size: 15px;
+  }
+  .socials {
+      color: var(--myColor);
+      margin: 10px;
+  }
+}
+
+
+
+
+@media (min-width: 800px) and (max-width: 1200px) {
+
+  body {
+      width: 100%;
+  }
+
+/*Navigation bar*/
+  .icon1 {
+      line-height: 3px;
+      display: block;
+  }
+  .navbar-main {
+      display: none;
+      width: 100vw;
+      height: 60vh;
+      background: var(--myColor);
+      text-align: center;
+  }
+  .navbar-main, .nav-link {
+      margin-top: 20px;
+      font: 20px;
+  }
+  li .nav-link {
+      color: black;
+  }
+  .navbar-brand {
+      margin-left: 20px;
+      font-size: 30px;
+  }
+  .book-table {
+    width: 40%;
+    font-size: 20px;
+    margin-left: 30%;
+  }
+
+
+
+/*Carousel*/
+  .main-carousel {
+      width: 100%;
+  }
+
+  .carousel-inner img {
+      object-fit: cover;
+  }
+
+  .carousel-caption {
+      margin-bottom: 50%;
+  }
+
+  .carousel-caption h5 {
+      font-size: 50px;
+  }
+
+  .carousel-caption p {
+      font-size: 28px;
+  }
+
+
+/*Picture and Text*/
+  .row-1 {
+      padding: 20px 0;
+  }
+  .box {
+      width: 100%;
+      height: 100%;
+  }
+  .box img {
+      width: 100%;
+      height: 100%;
+  }
+  .box-size {
+      width: 100%;
+  }
+  h3 {
+      font-size: 25px;
+  }
+  
+
+
+/*Our Restaurant*/
+  .our-restaurant {
+      width: 100%;
+  }
+  .outer-menu {
+      width: 100%;
+      margin: 30px;
+  }
+  .outer-menu h4 {
+      font-size: 40px;
+      font-weight: bold;
+      margin-top: 20px;
+  }
+  .row-2 { 
+      display: block;
+      margin: 3px 10px;
+      width: 100%;
+  }
+  .numb {
+      color: var(--myVar);
+      font-size: 50px;
+  }
+  .box2 {
+      margin: 0 0 10px 0;
+  }
+  .col2 {
+      width: 100%;
+  }
+  h6 {
+      text-align: left;
+      font-size: 40px;
+  }
+
+
+
+/*Our Menu*/
+  .tasty {
+      margin-top: 80px;
+  }
+  .btn-groups {
+      text-align: center;
+  }
+  .btn-groups span {
+      margin: 5px 10px;
+      padding: 5px;
+      width: 15%;
+  }
+
+
+/*Our Specials*/
+  .listrow {
+      width: 100%;
+  }
+  .txt {
+      text-align: center;
+      width: 100%;
+      margin-left: 0;
+  }
+
+  .box-3 img {
+      margin: 20px 10px;
+      height: 50vh;
+      width: 100%;
+  }
+  .col-md-4 {
+      width: 100%;
+
+  }
+
+
+
+/*Our Events*/
+
+  .container-events:before {
+      width: 98%;
+      height: 100vh; 
+      margin-bottom: 0;
+  }
+  .carousel-flex {
+      display: block;
+  }
+  .topspace {
+      margin-top: 20px;
+  }
+  .active h1 {
+      font-size: 50px;
+  }
+  .event-img {
+      width:  100%;
+      height: 50%;
+  }
+  .wedding {
+      height: 38vh;
+      width: 100%;
+  }
+  .event-text {
+      margin: 0 0 5% 10%;
+      font-size: 20px;
+      width: 100%;
+  }
+  .event-text p {
+      font-size: 20px;
+
+  }
+
+
+/*Book A Table*/
+  #table {
+      margin-top: 5%;
+      width: 100%;
+  }
+  .containerTable {
+      width: 90%;
+  }
+  .tableItem {
+      width: 100%;
+      margin: 50px;
+  }
+  .tableText {
+      margin-top: 10px;
+  }
+  .inputBox {
+      width: 100%;
+  }
+  input {
+      margin: 15px 0 10px 0;
+      width: 40%;
+      padding: 10px;
+  }
+  #txtArea {
+      max-width: 80%;
+  }
+  #btn {
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+      width: 20%;
+  }
+
+
+
+/*Photo of our Chef*/
+  .OurChefs::before {
+      height: 60vh;
+      width: 98%;
+  }
+  .chefs {
+      margin-top: 20px;
+      padding-top: 10px;
+  }
+  .containerText {
+      position: absolute;
+      width: 90%;
+      margin: -50px 0 20% 13px;
+      padding: 20px;
+  }
+
+ 
+  
+  
+/*Contact Us*/
+  #contact {
+      margin-top: 30%;
+  }
+  .tableItem {
+      margin: 50px;
+      width: 100%;
+  }
+  
+  .container-info {
+      display: block;
+  }
+  
+  .info {
+      margin-top: 10px;
+      padding: 15px; 
+      width: 80%; 
+  }
+  
+  .info1 {
+      font-weight: bold;
+      font-size: 20px;
+  }
+  
+  .inputBox {
+      width: 100%;
+  }
+  
+  #input {
+      margin: 15px 0;
+      width: 40%;
+      border: 1px solid #ccc;
+  }
+  #subject {
+      width: 80%;
+  }
+  
+  #txtArea {
+      width: 100%;
+      border: 1px solid #ccc;
+  }
+  
+  #btn {
+     margin-left: 30%;
+     padding: 10px;
+     width: 20%;
+     border-radius: 15px;
+   
+  }
+  
+
+/*Footer*/
+  .txt-specials {
+      color: var(--myColor);
+      text-align: center;
+      margin: 20px;
+      font-size: 15px;
+  }
+  .socials {
+      color: var(--myColor);
+      margin: 10px;
+  }
+  .textPix h6 {
+      text-align: center;
+  }
+
+
+}
